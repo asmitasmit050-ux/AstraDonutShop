@@ -1,0 +1,43 @@
+# Automatically make every non-legacy Bukkit Material available as :material_name:.
+# Vanilla texture paths are used when no same-named custom PNG exists.
+auto-material-emojis: true
+
+# Each interception surface can be disabled independently.
+surfaces:
+  chat: true
+  tab: true
+  scoreboard: true
+  holograms: true
+  menus: true
+  items: true
+  dialogs: true
+  signs: true
+  books: true
+  boss-bars: true
+
+# ProtocolLib enables packet coverage for content emitted by other plugins.
+packets:
+  enabled: true
+
+resource-pack:
+  generate-on-startup: true
+  send-on-join: true
+  required: false
+  prompt: "AstraEmojis needs its resource pack to display emojis."
+  # Public URL is strongly recommended. If blank, the embedded server URL is used.
+  public-url: ""
+  embedded-server:
+    enabled: true
+    bind: "0.0.0.0"
+    port: 8127
+  # 1.21.6. Change this when targeting a version with a different resource-pack format.
+  pack-format: 63
+  ascent: 8
+  height: 9
+  namespace: "astraemojis"
+  font: "minecraft:default"
+
+messages:
+  prefix: "<gold><bold>AstraEmojis</bold></gold> <dark_gray>»</dark_gray> "
+  no-permission: "<red>You do not have permission.</red>"
+  reloaded: "<green>Configuration, emojis, and the resource pack were reloaded.</green>"

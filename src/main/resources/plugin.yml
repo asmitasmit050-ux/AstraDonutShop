@@ -1,0 +1,38 @@
+name: AstraEmojis
+version: '${version}'
+main: com.astralab.astraemojis.AstraEmojis
+api-version: '1.20'
+folia-supported: true
+
+authors:
+  - DevSolentz
+  - LivingCritz
+  - FrDreamoHeh
+
+description: 'Professional emoji management plugin by AstraLab'
+website: 'https://astralab.dev'
+
+softdepend:
+  - PlaceholderAPI
+  - ProtocolLib
+
+commands:
+  emoji:
+    description: Manage and browse AstraEmojis
+    usage: /emoji <list|reload|give|pack>
+    permission: astraemojis.use
+
+permissions:
+  astraemojis.use:
+    description: Use and browse emojis
+    default: true
+  astraemojis.use.*:
+    description: Use every emoji
+    default: op
+    children:
+      astraemojis.use: true
+  astraemojis.admin:
+    description: Reload, give emojis, and rebuild/send packs
+    default: op
+    children:
+      astraemojis.use.*: true

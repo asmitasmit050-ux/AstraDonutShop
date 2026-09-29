@@ -1,0 +1,16 @@
+# A value may be a literal character or a Unicode code point (U+E001).
+# Put matching PNG files in plugins/AstraEmojis/emojis/<name>.png.
+# PNG-only names are assigned unused private-use characters automatically.
+emojis:
+  lime_wool:
+    char: "U+E001"
+    permission: "astraemojis.use.lime_wool"
+  pink_harness:
+    char: "U+E002"
+    permission: "astraemojis.use.pink_harness"
+  netherite_sword:
+    char: "U+E003"
+    permission: "astraemojis.use.netherite_sword"
+  donut:
+    char: "U+E004"
+    permission: ""

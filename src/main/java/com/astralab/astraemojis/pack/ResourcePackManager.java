@@ -81,15 +81,13 @@ public final class ResourcePackManager implements AutoCloseable {
             List<String> providers = new ArrayList<>();
             providers.add("{\"type\":\"reference\",\"id\":\"minecraft:include/default\"}");
             for (Emoji emoji : emojis.all()) {
+                // Vanilla sprite object components are client-native and never enter the font pack.
+                if (emoji.isSprite() || emoji.glyph().isBlank()) continue;
                 Path source = images.toPath().resolve(emoji.name() + ".png");
-                String texture = emoji.texture();
-                if (Files.isRegularFile(source)) {
-                    Path target = textureDir.resolve(emoji.name() + ".png");
-                    Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
-                    texture = namespace + ":emoji/" + emoji.name();
-                }
-                if (texture == null || texture.isBlank()) continue;
-                providers.add("{\"type\":\"bitmap\",\"file\":\"" + texture +
+                if (!Files.isRegularFile(source)) continue;
+                Path target = textureDir.resolve(emoji.name() + ".png");
+                Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
+                providers.add("{\"type\":\"bitmap\",\"file\":\"" + namespace + ":emoji/" + emoji.name() +
                     ".png\",\"ascent\":" + ascent + ",\"height\":" + height + ",\"chars\":[\"" +
                     jsonEscape(emoji.glyph()) + "\"]}");
             }

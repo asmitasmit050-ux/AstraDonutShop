@@ -1,16 +1,21 @@
-# A value may be a literal character or a Unicode code point (U+E001).
-# Put matching PNG files in plugins/AstraEmojis/emojis/<name>.png.
-# PNG-only names are assigned unused private-use characters automatically.
+# Sprite entries use textures already shipped with Minecraft 1.21.9+ and need no pack.
+# Atlas is inferred as minecraft:items or minecraft:blocks when omitted.
+# Custom aliases can point to any vanilla atlas sprite.
 emojis:
   lime_wool:
-    char: "U+E001"
+    sprite: "minecraft:block/lime_wool"
     permission: "astraemojis.use.lime_wool"
   pink_harness:
-    char: "U+E002"
+    sprite: "minecraft:item/pink_harness"
     permission: "astraemojis.use.pink_harness"
   netherite_sword:
-    char: "U+E003"
+    sprite: "minecraft:item/netherite_sword"
     permission: "astraemojis.use.netherite_sword"
   donut:
-    char: "U+E004"
+    sprite: "minecraft:item/cookie"
     permission: ""
+
+# Optional resource-pack glyph format (only when resource-pack.enabled is true):
+#  custom_logo:
+#    char: "U+E001"
+#    permission: "astraemojis.use.custom_logo"

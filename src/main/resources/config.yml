@@ -20,18 +20,20 @@ packets:
   enabled: true
 
 resource-pack:
-  generate-on-startup: true
-  send-on-join: true
+  # Not needed for vanilla item/block sprite emojis. Enable only for custom PNG glyphs.
+  enabled: false
+  generate-on-startup: false
+  send-on-join: false
   required: false
-  prompt: "AstraEmojis needs its resource pack to display emojis."
+  prompt: "Accept the optional AstraEmojis pack for custom-image emojis."
   # Public URL is strongly recommended. If blank, the embedded server URL is used.
   public-url: ""
   embedded-server:
     enabled: true
     bind: "0.0.0.0"
     port: 8127
-  # 1.21.6. Change this when targeting a version with a different resource-pack format.
-  pack-format: 63
+  # Optional custom-image pack format for 1.21.11. Native sprites ignore this setting.
+  pack-format: 75
   ascent: 8
   height: 9
   namespace: "astraemojis"
@@ -40,4 +42,4 @@ resource-pack:
 messages:
   prefix: "<gold><bold>AstraEmojis</bold></gold> <dark_gray>»</dark_gray> "
   no-permission: "<red>You do not have permission.</red>"
-  reloaded: "<green>Configuration, emojis, and the resource pack were reloaded.</green>"
+  reloaded: "<green>Configuration and emojis were reloaded.</green>"

@@ -6,6 +6,8 @@ import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.events.*;
 import com.comphenix.protocol.wrappers.WrappedChatComponent;
+import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.serializer.gson.GsonComponentSerializer;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -57,8 +59,12 @@ public final class PacketSurfaceBridge implements AutoCloseable {
             var chats = packet.getChatComponents();
             for (int i = 0; i < chats.size(); i++) {
                 WrappedChatComponent value = chats.readSafely(i);
-                if (value != null) chats.writeSafely(i,
-                    WrappedChatComponent.fromJson(emojis.replaceSerialized(value.getJson(), viewer)));
+                if (value != null) {
+                    Component decoded = GsonComponentSerializer.gson().deserialize(value.getJson());
+                    Component replaced = emojis.replace(decoded, viewer);
+                    chats.writeSafely(i, WrappedChatComponent.fromJson(
+                        GsonComponentSerializer.gson().serialize(replaced)));
+                }
             }
             var strings = packet.getStrings();
             for (int i = 0; i < strings.size(); i++) {

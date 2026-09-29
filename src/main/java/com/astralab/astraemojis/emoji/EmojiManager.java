@@ -42,14 +42,18 @@ public final class EmojiManager {
                 String name = normalize(rawName);
                 String raw = root.getString(rawName + ".char", "");
                 String glyph = decodeGlyph(raw);
-                if (name.isEmpty() || glyph.isEmpty()) {
-                    plugin.getLogger().warning("Ignoring invalid emoji entry: " + rawName);
+                String spritePath = root.getString(rawName + ".sprite",
+                    root.getString(rawName + ".texture", ""));
+                if (spritePath.isBlank()) spritePath = materialSprite(name);
+                if (name.isEmpty() || (glyph.isEmpty() && spritePath.isBlank())) {
+                    plugin.getLogger().warning("Ignoring emoji without a char or sprite: " + rawName);
                     continue;
                 }
-                String texture = root.getString(rawName + ".texture", "");
-                if (texture.isBlank()) texture = materialTexture(name);
+                Key sprite = spritePath.isBlank() ? null : Key.key(spritePath);
+                String atlasPath = root.getString(rawName + ".atlas", inferAtlas(spritePath));
                 loaded.put(name, new Emoji(name, glyph,
-                    root.getString(rawName + ".permission", ""), font, texture));
+                    root.getString(rawName + ".permission", ""), font,
+                    sprite == null ? null : Key.key(atlasPath), sprite));
             }
         }
         if (plugin.getConfig().getBoolean("auto-material-emojis", true)) addMaterialEmojis(loaded);
@@ -75,18 +79,18 @@ public final class EmojiManager {
     }
 
     private Component replace(Component input, Predicate<Emoji> allowed) {
-        Component transformed = input;
+        List<Component> originalChildren = input.children();
         if (input instanceof TextComponent text) {
             Component parsed = replace(text.content(), allowed).style(input.style());
-            transformed = parsed;
+            if (originalChildren.isEmpty()) return parsed;
+            List<Component> combined = new ArrayList<>(parsed.children());
+            for (Component child : originalChildren) combined.add(replace(child, allowed));
+            return parsed.children(combined);
         }
-        List<Component> children = input.children();
-        if (!children.isEmpty()) {
-            List<Component> mapped = new ArrayList<>(children.size());
-            for (Component child : children) mapped.add(replace(child, allowed));
-            transformed = transformed.children(mapped);
-        }
-        return transformed;
+        if (originalChildren.isEmpty()) return input;
+        List<Component> mapped = new ArrayList<>(originalChildren.size());
+        for (Component child : originalChildren) mapped.add(replace(child, allowed));
+        return input.children(mapped);
     }
 
     private Component replace(String input, Predicate<Emoji> allowed) {
@@ -109,14 +113,15 @@ public final class EmojiManager {
         return out.build();
     }
 
-    /** Used only on serialized packet JSON; the inserted glyph cannot break JSON quoting. */
+    /** Fallback for protocol fields that are still raw strings; sprite objects require component fields. */
     public String replaceSerialized(String json, @Nullable Player viewer) {
         if (json == null || json.indexOf(':') < 0) return json;
         Matcher matcher = Pattern.compile("(?<!\\\\\\\\):([a-zA-Z0-9_-]+):").matcher(json);
         StringBuffer out = new StringBuffer();
         while (matcher.find()) {
             Emoji emoji = emojis.get(normalize(matcher.group(1)));
-            if (emoji != null && allowed(viewer, emoji)) matcher.appendReplacement(out, Matcher.quoteReplacement(emoji.glyph()));
+            if (emoji != null && !emoji.isSprite() && allowed(viewer, emoji))
+                matcher.appendReplacement(out, Matcher.quoteReplacement(emoji.glyph()));
             else matcher.appendReplacement(out, Matcher.quoteReplacement(matcher.group()));
         }
         matcher.appendTail(out);
@@ -124,31 +129,26 @@ public final class EmojiManager {
     }
 
     private void addMaterialEmojis(Map<String, Emoji> loaded) {
-        Set<Integer> used = new HashSet<>();
-        loaded.values().forEach(e -> e.glyph().codePoints().forEach(used::add));
-        int codepoint = 0xE100;
         List<Material> materials = Arrays.stream(Material.values())
             .filter(m -> !m.isLegacy() && (m.isItem() || m.isBlock()))
             .sorted(Comparator.comparing(Material::name)).toList();
         for (Material material : materials) {
             String name = material.name().toLowerCase(Locale.ROOT);
             if (loaded.containsKey(name)) continue;
-            while (used.contains(codepoint) && codepoint <= 0xF8FF) codepoint++;
-            if (codepoint > 0xF8FF) {
-                plugin.getLogger().warning("Private-use range exhausted while creating material emojis.");
-                return;
-            }
-            String texture = materialTexture(name);
-            loaded.put(name, new Emoji(name, Character.toString(codepoint),
-                "astraemojis.use." + name, font, texture));
-            used.add(codepoint++);
+            String spritePath = materialSprite(name);
+            loaded.put(name, new Emoji(name, "", "astraemojis.use." + name, font,
+                Key.key(inferAtlas(spritePath)), Key.key(spritePath)));
         }
     }
 
-    private static String materialTexture(String name) {
+    private static String materialSprite(String name) {
         Material material = Material.matchMaterial(name);
         if (material == null || material.isLegacy()) return "";
         return "minecraft:" + (material.isBlock() ? "block/" : "item/") + name;
+    }
+
+    private static String inferAtlas(String spritePath) {
+        return spritePath != null && spritePath.contains(":block/") ? "minecraft:blocks" : "minecraft:items";
     }
 
     public Optional<Emoji> getEmoji(String name) {

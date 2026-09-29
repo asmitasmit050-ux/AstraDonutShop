@@ -70,7 +70,8 @@ public final class SurfaceListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-        if (plugin.getConfig().getBoolean("resource-pack.send-on-join", true)) packs.send(event.getPlayer());
+        if (plugin.getConfig().getBoolean("resource-pack.enabled", false)
+            && plugin.getConfig().getBoolean("resource-pack.send-on-join", false)) packs.send(event.getPlayer());
     }
 
     public void transformItem(ItemStack item, Player viewer) {

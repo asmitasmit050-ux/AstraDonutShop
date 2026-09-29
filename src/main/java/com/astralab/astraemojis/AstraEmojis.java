@@ -28,10 +28,13 @@ public final class AstraEmojis extends JavaPlugin {
         emojiManager = new EmojiManager(this);
         packManager = new ResourcePackManager(this, emojiManager);
         try {
-            packManager.synchronizePngMappings();
+            boolean packEnabled = getConfig().getBoolean("resource-pack.enabled", false);
+            if (packEnabled) packManager.synchronizePngMappings();
             emojiManager.reload();
-            if (getConfig().getBoolean("resource-pack.generate-on-startup", true)) packManager.build();
-            packManager.startServer();
+            if (packEnabled && getConfig().getBoolean("resource-pack.generate-on-startup", false)) {
+                packManager.build();
+                packManager.startServer();
+            }
         } catch (IOException error) {
             getLogger().severe("Resource pack setup failed: " + error.getMessage());
         }
@@ -62,10 +65,13 @@ public final class AstraEmojis extends JavaPlugin {
         reloadConfig();
         if (packetBridge != null) packetBridge.close();
         try {
-            packManager.synchronizePngMappings();
+            boolean packEnabled = getConfig().getBoolean("resource-pack.enabled", false);
+            if (packEnabled) packManager.synchronizePngMappings();
             emojiManager.reload();
-            packManager.build();
-            packManager.startServer();
+            if (packEnabled) {
+                packManager.build();
+                packManager.startServer();
+            } else packManager.close();
         } catch (IOException error) {
             getLogger().severe("Reload/resource pack generation failed: " + error.getMessage());
         }

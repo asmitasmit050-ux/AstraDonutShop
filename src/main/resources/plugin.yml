@@ -1,0 +1,32 @@
+name: GGDonutShop
+version: 1.21.11-26.3
+main: net.notdakuxd.nxdonutshop.NxDonutShop
+api-version: '1.21'
+author: NotDaKuxD
+description: GG DonutShop - Modern Shop System for Minecraft Paper 1.21.11
+depend:
+  - Vault
+softdepend:
+  - GGPlugins
+  - Essentials
+  - EssentialsX
+  - floodgate
+  - Geyser-Spigot
+  - SkinsRestorer
+  - NxEmojis
+commands:
+  shop:
+    description: Open the modern donut shop
+    usage: /shop
+    aliases: [donutshop, nxshop]
+  sell:
+    description: Open the sell chest GUI to sell items
+    usage: /sell
+    aliases: [sellg, sellgui]
+permissions:
+  ggdonutshop.admin:
+    description: Allows reloading the shop and randomizing prices
+    default: op
+  nxdonutshop.admin:
+    description: Allows reloading the shop and randomizing prices (legacy node)
+    default: op

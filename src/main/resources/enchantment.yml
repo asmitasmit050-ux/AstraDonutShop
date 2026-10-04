@@ -1,0 +1,112 @@
+# =======================================================
+#               NxDonutShop - Enchantment Pricing
+# =======================================================
+# Configure the buy price for all enchantments.
+# You can set 'price-per-level' (multiplies by level)
+# or specify individual 'levels' prices.
+# =======================================================
+
+enchantments:
+  # Weapons
+  SHARPNESS:
+    price-per-level: 50.0
+  SMITE:
+    price-per-level: 40.0
+  BANE_OF_ARTHROPODS:
+    price-per-level: 30.0
+  KNOCKBACK:
+    price-per-level: 40.0
+  FIRE_ASPECT:
+    price-per-level: 60.0
+  LOOTING:
+    price-per-level: 100.0
+  SWEEPING_EDGE:
+    price-per-level: 50.0
+
+  # Tools
+  EFFICIENCY:
+    price-per-level: 50.0
+  SILK_TOUCH:
+    price-per-level: 150.0
+  FORTUNE:
+    price-per-level: 100.0
+
+  # Armor General
+  PROTECTION:
+    price-per-level: 60.0
+  FIRE_PROTECTION:
+    price-per-level: 40.0
+  FEATHER_FALLING:
+    price-per-level: 50.0
+  BLAST_PROTECTION:
+    price-per-level: 40.0
+  PROJECTILE_PROTECTION:
+    price-per-level: 40.0
+  THORNS:
+    price-per-level: 75.0
+
+  # Helmet
+  RESPIRATION:
+    price-per-level: 50.0
+  AQUA_AFFINITY:
+    price-per-level: 50.0
+
+  # Boots
+  DEPTH_STRIDER:
+    price-per-level: 50.0
+  FROST_WALKER:
+    price-per-level: 75.0
+  SOUL_SPEED:
+    price-per-level: 75.0
+
+  # Leggings
+  SWIFT_SNEAK:
+    price-per-level: 100.0
+
+  # Bow
+  POWER:
+    price-per-level: 50.0
+  PUNCH:
+    price-per-level: 50.0
+  FLAME:
+    price-per-level: 75.0
+  INFINITY:
+    price-per-level: 150.0
+
+  # Crossbow
+  MULTISHOT:
+    price-per-level: 75.0
+  QUICK_CHARGE:
+    price-per-level: 50.0
+  PIERCING:
+    price-per-level: 50.0
+
+  # Trident
+  LOYALTY:
+    price-per-level: 50.0
+  IMPALING:
+    price-per-level: 50.0
+  RIPTIDE:
+    price-per-level: 75.0
+  CHANNELING:
+    price-per-level: 75.0
+
+  # Mace (1.21+)
+  DENSITY:
+    price-per-level: 50.0
+  BREACH:
+    price-per-level: 50.0
+  WIND_BURST:
+    price-per-level: 150.0
+
+  # Fishing Rod
+  LUCK_OF_THE_SEA:
+    price-per-level: 50.0
+  LURE:
+    price-per-level: 50.0
+
+  # Universal / Utility
+  UNBREAKING:
+    price-per-level: 50.0
+  MENDING:
+    price-per-level: 250.0

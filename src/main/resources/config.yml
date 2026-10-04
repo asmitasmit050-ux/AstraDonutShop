@@ -1,0 +1,71 @@
+# ============================================================
+#               NxDonutShop Configuration
+#          Paper 1.21.11 Modern Dialogues & Economy Shop
+# ============================================================
+#
+# All configurable texts support HEX CODES and legacy color codes:
+#   &a &b &c ... &f   (colors)     &l &o &n &m &k &r   (formats)
+#   &#RRGGBB          (hex color, e.g. &#FFAA00)
+#   &x&F&F&A&A&0&0    (bungee-style hex)
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# Market Price Fluctuation
+#
+# enabled: true/false - turn the price fluctuation on or off.
+# If disabled prices always stay at the base prices from shop.yml
+# and no announcements are broadcast.
+# ------------------------------------------------------------
+price-fluctuation:
+  enabled: true
+  # How often (in minutes) the market prices fluctuate.
+  interval-minutes: 15
+  # Prices are multiplied with a random value in this range.
+  min-multiplier: 0.70
+  max-multiplier: 1.40
+  # The announcement that is broadcast every time prices fluctuate.
+  announce:
+    enabled: true
+    # Every line of this list is broadcast. Supports & codes and hex codes.
+    # Placeholders: {min} {max} {interval}
+    messages:
+      - "&6&l========================================"
+      - "&e 📊 &lMARKET UPDATE: &aShop Prices Have Fluctuated!"
+      - "&7Market economy rates have shifted. Check &b/shop&7!"
+      - "&6&l========================================"
+
+# ------------------------------------------------------------
+# Sell Worth lore on held shop items
+#
+# enabled: true  - shop items in player inventories show the configured
+#                  lore line (only once, it is never duplicated).
+#          false - the lore line is removed from all items again.
+# ------------------------------------------------------------
+sell-worth-lore:
+  enabled: true
+  # The line that is added to shop items.
+  # Placeholders: {price} (per item) {total} (whole stack) {amount} {material}
+  line: "&fSell Worth: &a$ {price}"
+
+# ------------------------------------------------------------
+# Sell GUI menu ( /sell, /sellg, /sellgui )
+# ------------------------------------------------------------
+sell-gui:
+  # Menu title. Supports & and hex codes.
+  title: "&8Sell Chest"
+  # Menu size (a multiple of 9, between 9 and 54).
+  size: 54
+  # Slot of the sell button (0 = first slot). All other slots accept items.
+  sell-slot: 53
+  sell-button:
+    # Material of the sell button (any valid Bukkit material name).
+    material: BARRIER
+    # Name of the sell button. Supports & and hex codes.
+    name: "&c&lClick to Sell"
+    # Lore of the sell button. Supports & and hex codes.
+    lore:
+      - "&7Click to sell all items!"
+
+settings:
+  currency-symbol: "$"
+  debug: false

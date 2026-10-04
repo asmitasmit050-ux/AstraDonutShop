@@ -1,0 +1,3013 @@
+# =====================================================
+#           NxDonutShop-Modern - Complete shop.yml
+#           Author: NotDaKuxD | Paper 1.21.11
+# =====================================================
+
+settings:
+  currency-symbol: "$"
+  enable-vault: true
+
+items:
+  ACACIA_BOAT:
+    buy: 20
+    sell: 5
+  ACACIA_BUTTON:
+    buy: 20
+    sell: 5
+  ACACIA_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  ACACIA_DOOR:
+    buy: 20
+    sell: 5
+  ACACIA_FENCE:
+    buy: 20
+    sell: 5
+  ACACIA_FENCE_GATE:
+    buy: 20
+    sell: 5
+  ACACIA_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  ACACIA_LEAVES:
+    buy: 20
+    sell: 5
+  ACACIA_LOG:
+    buy: 25
+    sell: 6.25
+  ACACIA_PLANKS:
+    buy: 8
+    sell: 2
+  ACACIA_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  ACACIA_SAPLING:
+    buy: 20
+    sell: 5
+  ACACIA_SHELF:
+    buy: 20
+    sell: 5
+  ACACIA_SIGN:
+    buy: 20
+    sell: 5
+  ACACIA_TRAPDOOR:
+    buy: 20
+    sell: 5
+  ACACIA_WOOD:
+    buy: 25
+    sell: 6.25
+  ACTIVATOR_RAIL:
+    buy: 20
+    sell: 5
+  ALLIUM:
+    buy: 20
+    sell: 5
+  AMETHYST_BLOCK:
+    buy: 20
+    sell: 5
+  AMETHYST_CLUSTER:
+    buy: 20
+    sell: 5
+  AMETHYST_SHARD:
+    buy: 20
+    sell: 5
+  ANCIENT_DEBRIS:
+    buy: 20
+    sell: 5
+  ANDESITE:
+    buy: 20
+    sell: 5
+  ANDESITE_WALL:
+    buy: 20
+    sell: 5
+  ANVIL:
+    buy: 20
+    sell: 5
+  APPLE:
+    buy: 20
+    sell: 5
+  ARMADILLO_SCUTE:
+    buy: 20
+    sell: 5
+  ARMOR_STAND:
+    buy: 20
+    sell: 5
+  ARROW:
+    buy: 20
+    sell: 5
+  AXOLOTL_BUCKET:
+    buy: 20
+    sell: 5
+  AZALEA:
+    buy: 20
+    sell: 5
+  AZALEA_LEAVES:
+    buy: 20
+    sell: 5
+  AZURE_BLUET:
+    buy: 20
+    sell: 5
+  BAKED_POTATO:
+    buy: 20
+    sell: 5
+  BAMBOO:
+    buy: 20
+    sell: 5
+  BAMBOO_BLOCK:
+    buy: 20
+    sell: 5
+  BAMBOO_BUTTON:
+    buy: 20
+    sell: 5
+  BAMBOO_CHEST_RAFT:
+    buy: 20
+    sell: 5
+  BAMBOO_DOOR:
+    buy: 20
+    sell: 5
+  BAMBOO_FENCE:
+    buy: 20
+    sell: 5
+  BAMBOO_FENCE_GATE:
+    buy: 20
+    sell: 5
+  BAMBOO_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  BAMBOO_MOSAIC:
+    buy: 20
+    sell: 5
+  BAMBOO_PLANKS:
+    buy: 8
+    sell: 2
+  BAMBOO_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  BAMBOO_RAFT:
+    buy: 20
+    sell: 5
+  BAMBOO_SAPLING:
+    buy: 20
+    sell: 5
+  BAMBOO_SHELF:
+    buy: 20
+    sell: 5
+  BAMBOO_SIGN:
+    buy: 20
+    sell: 5
+  BAMBOO_TRAPDOOR:
+    buy: 20
+    sell: 5
+  BARREL:
+    buy: 20
+    sell: 5
+  BASALT:
+    buy: 20
+    sell: 5
+  BEACON:
+    buy: 8000
+    sell: 2000
+  BEE_NEST:
+    buy: 20
+    sell: 5
+  BEEF:
+    buy: 20
+    sell: 5
+  BEEHIVE:
+    buy: 20
+    sell: 5
+  BEETROOT:
+    buy: 20
+    sell: 5
+  BEETROOT_SEEDS:
+    buy: 20
+    sell: 5
+  BEETROOT_SOUP:
+    buy: 20
+    sell: 5
+  BEETROOTS:
+    buy: 20
+    sell: 5
+  BELL:
+    buy: 20
+    sell: 5
+  BIRCH_BOAT:
+    buy: 20
+    sell: 5
+  BIRCH_BUTTON:
+    buy: 20
+    sell: 5
+  BIRCH_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  BIRCH_DOOR:
+    buy: 20
+    sell: 5
+  BIRCH_FENCE:
+    buy: 20
+    sell: 5
+  BIRCH_FENCE_GATE:
+    buy: 20
+    sell: 5
+  BIRCH_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  BIRCH_LEAVES:
+    buy: 20
+    sell: 5
+  BIRCH_LOG:
+    buy: 25
+    sell: 6.25
+  BIRCH_PLANKS:
+    buy: 8
+    sell: 2
+  BIRCH_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  BIRCH_SAPLING:
+    buy: 20
+    sell: 5
+  BIRCH_SHELF:
+    buy: 20
+    sell: 5
+  BIRCH_SIGN:
+    buy: 20
+    sell: 5
+  BIRCH_TRAPDOOR:
+    buy: 20
+    sell: 5
+  BIRCH_WOOD:
+    buy: 25
+    sell: 6.25
+  BLACK_BUNDLE:
+    buy: 20
+    sell: 5
+  BLACK_CANDLE:
+    buy: 20
+    sell: 5
+  BLACK_CONCRETE:
+    buy: 20
+    sell: 5
+  BLACK_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  BLACK_DYE:
+    buy: 20
+    sell: 5
+  BLACK_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BLACK_HARNESS:
+    buy: 20
+    sell: 5
+  BLACK_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  BLACK_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BLACK_WOOL:
+    buy: 20
+    sell: 5
+  BLACKSTONE:
+    buy: 20
+    sell: 5
+  BLACKSTONE_WALL:
+    buy: 20
+    sell: 5
+  BLAST_FURNACE:
+    buy: 20
+    sell: 5
+  BLAZE_POWDER:
+    buy: 20
+    sell: 5
+  BLAZE_ROD:
+    buy: 100
+    sell: 25
+  BLUE_BUNDLE:
+    buy: 20
+    sell: 5
+  BLUE_CANDLE:
+    buy: 20
+    sell: 5
+  BLUE_CONCRETE:
+    buy: 20
+    sell: 5
+  BLUE_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  BLUE_DYE:
+    buy: 20
+    sell: 5
+  BLUE_EGG:
+    buy: 20
+    sell: 5
+  BLUE_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BLUE_HARNESS:
+    buy: 20
+    sell: 5
+  BLUE_ICE:
+    buy: 20
+    sell: 5
+  BLUE_ORCHID:
+    buy: 20
+    sell: 5
+  BLUE_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  BLUE_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BLUE_WOOL:
+    buy: 20
+    sell: 5
+  BOLT_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  BONE:
+    buy: 20
+    sell: 5
+  BONE_BLOCK:
+    buy: 20
+    sell: 5
+  BONE_MEAL:
+    buy: 20
+    sell: 5
+  BOOK:
+    buy: 20
+    sell: 5
+  BOOKSHELF:
+    buy: 20
+    sell: 5
+  BOW:
+    buy: 20
+    sell: 5
+  BOWL:
+    buy: 20
+    sell: 5
+  BRAIN_CORAL:
+    buy: 20
+    sell: 5
+  BRAIN_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  BREAD:
+    buy: 20
+    sell: 5
+  BREEZE_ROD:
+    buy: 100
+    sell: 25
+  BREWING_STAND:
+    buy: 20
+    sell: 5
+  BRICK:
+    buy: 20
+    sell: 5
+  BRICK_WALL:
+    buy: 20
+    sell: 5
+  BRICKS:
+    buy: 20
+    sell: 5
+  BROWN_BUNDLE:
+    buy: 20
+    sell: 5
+  BROWN_CANDLE:
+    buy: 20
+    sell: 5
+  BROWN_CONCRETE:
+    buy: 20
+    sell: 5
+  BROWN_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  BROWN_DYE:
+    buy: 20
+    sell: 5
+  BROWN_EGG:
+    buy: 20
+    sell: 5
+  BROWN_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BROWN_HARNESS:
+    buy: 20
+    sell: 5
+  BROWN_MUSHROOM:
+    buy: 20
+    sell: 5
+  BROWN_MUSHROOM_BLOCK:
+    buy: 20
+    sell: 5
+  BROWN_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  BROWN_TERRACOTTA:
+    buy: 20
+    sell: 5
+  BROWN_WOOL:
+    buy: 20
+    sell: 5
+  BRUSH:
+    buy: 20
+    sell: 5
+  BUBBLE_CORAL:
+    buy: 20
+    sell: 5
+  BUBBLE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  BUCKET:
+    buy: 20
+    sell: 5
+  BUDDING_AMETHYST:
+    buy: 20
+    sell: 5
+  BUSH:
+    buy: 20
+    sell: 5
+  CACTUS:
+    buy: 20
+    sell: 5
+  CACTUS_FLOWER:
+    buy: 20
+    sell: 5
+  CALCITE:
+    buy: 20
+    sell: 5
+  CAMPFIRE:
+    buy: 20
+    sell: 5
+  CANDLE:
+    buy: 20
+    sell: 5
+  CANDLE_CAKE:
+    buy: 20
+    sell: 5
+  CARROT:
+    buy: 20
+    sell: 5
+  CARROT_ON_A_STICK:
+    buy: 20
+    sell: 5
+  CARROTS:
+    buy: 20
+    sell: 5
+  CARVED_PUMPKIN:
+    buy: 20
+    sell: 5
+  CAULDRON:
+    buy: 20
+    sell: 5
+  CAVE_VINES:
+    buy: 20
+    sell: 5
+  CAVE_VINES_PLANT:
+    buy: 20
+    sell: 5
+  CHAINMAIL_BOOTS:
+    buy: 300
+    sell: 75
+  CHAINMAIL_CHESTPLATE:
+    buy: 300
+    sell: 75
+  CHAINMAIL_HELMET:
+    buy: 300
+    sell: 75
+  CHAINMAIL_LEGGINGS:
+    buy: 300
+    sell: 75
+  CHARCOAL:
+    buy: 20
+    sell: 5
+  CHERRY_BOAT:
+    buy: 20
+    sell: 5
+  CHERRY_BUTTON:
+    buy: 20
+    sell: 5
+  CHERRY_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  CHERRY_DOOR:
+    buy: 20
+    sell: 5
+  CHERRY_FENCE:
+    buy: 20
+    sell: 5
+  CHERRY_FENCE_GATE:
+    buy: 20
+    sell: 5
+  CHERRY_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  CHERRY_LEAVES:
+    buy: 20
+    sell: 5
+  CHERRY_LOG:
+    buy: 25
+    sell: 6.25
+  CHERRY_PLANKS:
+    buy: 8
+    sell: 2
+  CHERRY_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  CHERRY_SAPLING:
+    buy: 20
+    sell: 5
+  CHERRY_SHELF:
+    buy: 20
+    sell: 5
+  CHERRY_SIGN:
+    buy: 20
+    sell: 5
+  CHERRY_TRAPDOOR:
+    buy: 20
+    sell: 5
+  CHERRY_WOOD:
+    buy: 25
+    sell: 6.25
+  CHEST:
+    buy: 20
+    sell: 5
+  CHEST_MINECART:
+    buy: 20
+    sell: 5
+  CHICKEN:
+    buy: 20
+    sell: 5
+  CHIPPED_ANVIL:
+    buy: 20
+    sell: 5
+  CHISELED_BOOKSHELF:
+    buy: 20
+    sell: 5
+  CHISELED_DEEPSLATE:
+    buy: 20
+    sell: 5
+  CHISELED_NETHER_BRICKS:
+    buy: 20
+    sell: 5
+  CHISELED_POLISHED_BLACKSTONE:
+    buy: 20
+    sell: 5
+  CHISELED_QUARTZ_BLOCK:
+    buy: 20
+    sell: 5
+  CHISELED_RED_SANDSTONE:
+    buy: 20
+    sell: 5
+  CHISELED_RESIN_BRICKS:
+    buy: 20
+    sell: 5
+  CHISELED_SANDSTONE:
+    buy: 20
+    sell: 5
+  CHISELED_STONE_BRICKS:
+    buy: 20
+    sell: 5
+  CHISELED_TUFF:
+    buy: 20
+    sell: 5
+  CHISELED_TUFF_BRICKS:
+    buy: 20
+    sell: 5
+  CHORUS_FLOWER:
+    buy: 20
+    sell: 5
+  CHORUS_FRUIT:
+    buy: 20
+    sell: 5
+  CHORUS_PLANT:
+    buy: 20
+    sell: 5
+  CLAY:
+    buy: 20
+    sell: 5
+  CLAY_BALL:
+    buy: 20
+    sell: 5
+  CLOCK:
+    buy: 20
+    sell: 5
+  CLOSED_EYEBLOSSOM:
+    buy: 20
+    sell: 5
+  COAL:
+    buy: 20
+    sell: 5
+  COAL_BLOCK:
+    buy: 20
+    sell: 5
+  COAL_ORE:
+    buy: 20
+    sell: 5
+  COARSE_DIRT:
+    buy: 20
+    sell: 5
+  COAST_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  COBBLED_DEEPSLATE:
+    buy: 20
+    sell: 5
+  COBBLED_DEEPSLATE_WALL:
+    buy: 20
+    sell: 5
+  COBBLESTONE:
+    buy: 20
+    sell: 5
+  COBBLESTONE_WALL:
+    buy: 20
+    sell: 5
+  COBWEB:
+    buy: 20
+    sell: 5
+  COCOA:
+    buy: 20
+    sell: 5
+  COCOA_BEANS:
+    buy: 20
+    sell: 5
+  COD:
+    buy: 20
+    sell: 5
+  COD_BUCKET:
+    buy: 20
+    sell: 5
+  COMPARATOR:
+    buy: 20
+    sell: 5
+  COMPASS:
+    buy: 20
+    sell: 5
+  COMPOSTER:
+    buy: 20
+    sell: 5
+  COOKED_BEEF:
+    buy: 20
+    sell: 5
+  COOKED_CHICKEN:
+    buy: 20
+    sell: 5
+  COOKED_COD:
+    buy: 20
+    sell: 5
+  COOKED_MUTTON:
+    buy: 20
+    sell: 5
+  COOKED_PORKCHOP:
+    buy: 20
+    sell: 5
+  COOKED_RABBIT:
+    buy: 20
+    sell: 5
+  COOKED_SALMON:
+    buy: 20
+    sell: 5
+  COOKIE:
+    buy: 20
+    sell: 5
+  COPPER_AXE:
+    buy: 20
+    sell: 5
+  COPPER_BOOTS:
+    buy: 20
+    sell: 5
+  COPPER_CHESTPLATE:
+    buy: 20
+    sell: 5
+  COPPER_HELMET:
+    buy: 20
+    sell: 5
+  COPPER_HOE:
+    buy: 20
+    sell: 5
+  COPPER_HORSE_ARMOR:
+    buy: 20
+    sell: 5
+  COPPER_INGOT:
+    buy: 15
+    sell: 3.75
+  COPPER_LEGGINGS:
+    buy: 20
+    sell: 5
+  COPPER_NUGGET:
+    buy: 20
+    sell: 5
+  COPPER_ORE:
+    buy: 20
+    sell: 5
+  COPPER_PICKAXE:
+    buy: 20
+    sell: 5
+  COPPER_SHOVEL:
+    buy: 20
+    sell: 5
+  COPPER_SWORD:
+    buy: 20
+    sell: 5
+  CORNFLOWER:
+    buy: 20
+    sell: 5
+  CRACKED_DEEPSLATE_BRICKS:
+    buy: 20
+    sell: 5
+  CRACKED_DEEPSLATE_TILES:
+    buy: 20
+    sell: 5
+  CRACKED_NETHER_BRICKS:
+    buy: 20
+    sell: 5
+  CRACKED_POLISHED_BLACKSTONE_BRICKS:
+    buy: 20
+    sell: 5
+  CRACKED_STONE_BRICKS:
+    buy: 20
+    sell: 5
+  CRAFTER:
+    buy: 20
+    sell: 5
+  CRAFTING_TABLE:
+    buy: 20
+    sell: 5
+  CREAKING_HEART:
+    buy: 20
+    sell: 5
+  CRIMSON_BUTTON:
+    buy: 20
+    sell: 5
+  CRIMSON_DOOR:
+    buy: 20
+    sell: 5
+  CRIMSON_FENCE:
+    buy: 20
+    sell: 5
+  CRIMSON_FENCE_GATE:
+    buy: 20
+    sell: 5
+  CRIMSON_FUNGUS:
+    buy: 20
+    sell: 5
+  CRIMSON_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  CRIMSON_HYPHAE:
+    buy: 20
+    sell: 5
+  CRIMSON_NYLIUM:
+    buy: 20
+    sell: 5
+  CRIMSON_PLANKS:
+    buy: 8
+    sell: 2
+  CRIMSON_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  CRIMSON_ROOTS:
+    buy: 20
+    sell: 5
+  CRIMSON_SHELF:
+    buy: 20
+    sell: 5
+  CRIMSON_SIGN:
+    buy: 20
+    sell: 5
+  CRIMSON_STEM:
+    buy: 20
+    sell: 5
+  CRIMSON_TRAPDOOR:
+    buy: 20
+    sell: 5
+  CRYING_OBSIDIAN:
+    buy: 20
+    sell: 5
+  CUT_RED_SANDSTONE:
+    buy: 20
+    sell: 5
+  CUT_SANDSTONE:
+    buy: 20
+    sell: 5
+  CYAN_BUNDLE:
+    buy: 20
+    sell: 5
+  CYAN_CANDLE:
+    buy: 20
+    sell: 5
+  CYAN_CONCRETE:
+    buy: 20
+    sell: 5
+  CYAN_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  CYAN_DYE:
+    buy: 20
+    sell: 5
+  CYAN_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  CYAN_HARNESS:
+    buy: 20
+    sell: 5
+  CYAN_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  CYAN_TERRACOTTA:
+    buy: 20
+    sell: 5
+  CYAN_WOOL:
+    buy: 20
+    sell: 5
+  DAMAGED_ANVIL:
+    buy: 20
+    sell: 5
+  DANDELION:
+    buy: 20
+    sell: 5
+  DARK_OAK_BOAT:
+    buy: 20
+    sell: 5
+  DARK_OAK_BUTTON:
+    buy: 20
+    sell: 5
+  DARK_OAK_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  DARK_OAK_DOOR:
+    buy: 20
+    sell: 5
+  DARK_OAK_FENCE:
+    buy: 20
+    sell: 5
+  DARK_OAK_FENCE_GATE:
+    buy: 20
+    sell: 5
+  DARK_OAK_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  DARK_OAK_LEAVES:
+    buy: 20
+    sell: 5
+  DARK_OAK_LOG:
+    buy: 25
+    sell: 6.25
+  DARK_OAK_PLANKS:
+    buy: 8
+    sell: 2
+  DARK_OAK_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  DARK_OAK_SAPLING:
+    buy: 20
+    sell: 5
+  DARK_OAK_SHELF:
+    buy: 20
+    sell: 5
+  DARK_OAK_SIGN:
+    buy: 20
+    sell: 5
+  DARK_OAK_TRAPDOOR:
+    buy: 20
+    sell: 5
+  DARK_OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  DARK_PRISMARINE:
+    buy: 20
+    sell: 5
+  DAYLIGHT_DETECTOR:
+    buy: 20
+    sell: 5
+  DEAD_BRAIN_CORAL:
+    buy: 20
+    sell: 5
+  DEAD_BRAIN_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  DEAD_BUBBLE_CORAL:
+    buy: 20
+    sell: 5
+  DEAD_BUBBLE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  DEAD_BUSH:
+    buy: 20
+    sell: 5
+  DEAD_FIRE_CORAL:
+    buy: 20
+    sell: 5
+  DEAD_FIRE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  DEAD_HORN_CORAL:
+    buy: 20
+    sell: 5
+  DEAD_HORN_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  DEAD_TUBE_CORAL:
+    buy: 20
+    sell: 5
+  DEAD_TUBE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  DEEPSLATE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_BRICK_WALL:
+    buy: 20
+    sell: 5
+  DEEPSLATE_BRICKS:
+    buy: 20
+    sell: 5
+  DEEPSLATE_COAL_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_COPPER_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_DIAMOND_ORE:
+    buy: 200
+    sell: 50
+  DEEPSLATE_EMERALD_ORE:
+    buy: 100
+    sell: 25
+  DEEPSLATE_GOLD_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_IRON_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_LAPIS_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_REDSTONE_ORE:
+    buy: 20
+    sell: 5
+  DEEPSLATE_TILE_WALL:
+    buy: 20
+    sell: 5
+  DEEPSLATE_TILES:
+    buy: 20
+    sell: 5
+  DETECTOR_RAIL:
+    buy: 20
+    sell: 5
+  DIAMOND:
+    buy: 200
+    sell: 50
+  DIAMOND_AXE:
+    buy: 500
+    sell: 125
+  DIAMOND_BLOCK:
+    buy: 1800
+    sell: 450
+  DIAMOND_BOOTS:
+    buy: 800
+    sell: 200
+  DIAMOND_CHESTPLATE:
+    buy: 1600
+    sell: 400
+  DIAMOND_HELMET:
+    buy: 1000
+    sell: 250
+  DIAMOND_HOE:
+    buy: 200
+    sell: 50
+  DIAMOND_HORSE_ARMOR:
+    buy: 200
+    sell: 50
+  DIAMOND_LEGGINGS:
+    buy: 1400
+    sell: 350
+  DIAMOND_NAUTILUS_ARMOR:
+    buy: 200
+    sell: 50
+  DIAMOND_ORE:
+    buy: 200
+    sell: 50
+  DIAMOND_PICKAXE:
+    buy: 500
+    sell: 125
+  DIAMOND_SHOVEL:
+    buy: 200
+    sell: 50
+  DIAMOND_SPEAR:
+    buy: 200
+    sell: 50
+  DIAMOND_SWORD:
+    buy: 500
+    sell: 125
+  DIORITE:
+    buy: 20
+    sell: 5
+  DIORITE_WALL:
+    buy: 20
+    sell: 5
+  DIRT:
+    buy: 20
+    sell: 5
+  DIRT_PATH:
+    buy: 20
+    sell: 5
+  DISC_FRAGMENT_5:
+    buy: 20
+    sell: 5
+  DISPENSER:
+    buy: 20
+    sell: 5
+  DRAGON_BREATH:
+    buy: 20
+    sell: 5
+  DRIED_KELP:
+    buy: 20
+    sell: 5
+  DRIED_KELP_BLOCK:
+    buy: 20
+    sell: 5
+  DRIPSTONE_BLOCK:
+    buy: 20
+    sell: 5
+  DROPPER:
+    buy: 20
+    sell: 5
+  DUNE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  ECHO_SHARD:
+    buy: 20
+    sell: 5
+  EGG:
+    buy: 20
+    sell: 5
+  ELYTRA:
+    buy: 10000
+    sell: 2500
+  EMERALD:
+    buy: 100
+    sell: 25
+  EMERALD_BLOCK:
+    buy: 900
+    sell: 225
+  EMERALD_ORE:
+    buy: 100
+    sell: 25
+  ENCHANTING_TABLE:
+    buy: 20
+    sell: 5
+  END_CRYSTAL:
+    buy: 20
+    sell: 5
+  END_ROD:
+    buy: 100
+    sell: 25
+  END_STONE:
+    buy: 20
+    sell: 5
+  END_STONE_BRICK_WALL:
+    buy: 20
+    sell: 5
+  END_STONE_BRICKS:
+    buy: 20
+    sell: 5
+  ENDER_CHEST:
+    buy: 20
+    sell: 5
+  ENDER_EYE:
+    buy: 20
+    sell: 5
+  ENDER_PEARL:
+    buy: 100
+    sell: 25
+  EXPERIENCE_BOTTLE:
+    buy: 20
+    sell: 5
+  EXPOSED_LIGHTNING_ROD:
+    buy: 100
+    sell: 25
+  EYE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  FARMLAND:
+    buy: 20
+    sell: 5
+  FEATHER:
+    buy: 20
+    sell: 5
+  FERMENTED_SPIDER_EYE:
+    buy: 20
+    sell: 5
+  FILLED_MAP:
+    buy: 20
+    sell: 5
+  FIRE_CHARGE:
+    buy: 20
+    sell: 5
+  FIRE_CORAL:
+    buy: 20
+    sell: 5
+  FIRE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  FIREFLY_BUSH:
+    buy: 20
+    sell: 5
+  FIREWORK_ROCKET:
+    buy: 20
+    sell: 5
+  FIREWORK_STAR:
+    buy: 20
+    sell: 5
+  FISHING_ROD:
+    buy: 100
+    sell: 25
+  FLETCHING_TABLE:
+    buy: 20
+    sell: 5
+  FLINT:
+    buy: 20
+    sell: 5
+  FLINT_AND_STEEL:
+    buy: 20
+    sell: 5
+  FLOW_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  FLOWER_POT:
+    buy: 20
+    sell: 5
+  FLOWERING_AZALEA:
+    buy: 20
+    sell: 5
+  FLOWERING_AZALEA_LEAVES:
+    buy: 20
+    sell: 5
+  FURNACE:
+    buy: 20
+    sell: 5
+  FURNACE_MINECART:
+    buy: 20
+    sell: 5
+  GILDED_BLACKSTONE:
+    buy: 20
+    sell: 5
+  GLASS:
+    buy: 20
+    sell: 5
+  GLASS_BOTTLE:
+    buy: 20
+    sell: 5
+  GLASS_PANE:
+    buy: 20
+    sell: 5
+  GLISTERING_MELON_SLICE:
+    buy: 20
+    sell: 5
+  GLOW_BERRIES:
+    buy: 20
+    sell: 5
+  GLOW_INK_SAC:
+    buy: 20
+    sell: 5
+  GLOW_ITEM_FRAME:
+    buy: 20
+    sell: 5
+  GLOW_LICHEN:
+    buy: 20
+    sell: 5
+  GLOWSTONE:
+    buy: 20
+    sell: 5
+  GLOWSTONE_DUST:
+    buy: 20
+    sell: 5
+  GOAT_HORN:
+    buy: 20
+    sell: 5
+  GOLD_BLOCK:
+    buy: 720
+    sell: 180
+  GOLD_INGOT:
+    buy: 80
+    sell: 20
+  GOLD_NUGGET:
+    buy: 20
+    sell: 5
+  GOLD_ORE:
+    buy: 20
+    sell: 5
+  GOLDEN_APPLE:
+    buy: 20
+    sell: 5
+  GOLDEN_AXE:
+    buy: 20
+    sell: 5
+  GOLDEN_BOOTS:
+    buy: 200
+    sell: 50
+  GOLDEN_CARROT:
+    buy: 20
+    sell: 5
+  GOLDEN_CHESTPLATE:
+    buy: 400
+    sell: 100
+  GOLDEN_HELMET:
+    buy: 250
+    sell: 62.5
+  GOLDEN_HOE:
+    buy: 20
+    sell: 5
+  GOLDEN_HORSE_ARMOR:
+    buy: 20
+    sell: 5
+  GOLDEN_LEGGINGS:
+    buy: 350
+    sell: 87.5
+  GOLDEN_NAUTILUS_ARMOR:
+    buy: 20
+    sell: 5
+  GOLDEN_PICKAXE:
+    buy: 20
+    sell: 5
+  GOLDEN_SHOVEL:
+    buy: 20
+    sell: 5
+  GOLDEN_SPEAR:
+    buy: 20
+    sell: 5
+  GOLDEN_SWORD:
+    buy: 20
+    sell: 5
+  GRANITE:
+    buy: 20
+    sell: 5
+  GRANITE_WALL:
+    buy: 20
+    sell: 5
+  GRASS_BLOCK:
+    buy: 20
+    sell: 5
+  GRAVEL:
+    buy: 20
+    sell: 5
+  GRAY_BUNDLE:
+    buy: 20
+    sell: 5
+  GRAY_CANDLE:
+    buy: 20
+    sell: 5
+  GRAY_CONCRETE:
+    buy: 20
+    sell: 5
+  GRAY_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  GRAY_DYE:
+    buy: 20
+    sell: 5
+  GRAY_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  GRAY_HARNESS:
+    buy: 20
+    sell: 5
+  GRAY_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  GRAY_TERRACOTTA:
+    buy: 20
+    sell: 5
+  GRAY_WOOL:
+    buy: 20
+    sell: 5
+  GREEN_BUNDLE:
+    buy: 20
+    sell: 5
+  GREEN_CANDLE:
+    buy: 20
+    sell: 5
+  GREEN_CONCRETE:
+    buy: 20
+    sell: 5
+  GREEN_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  GREEN_DYE:
+    buy: 20
+    sell: 5
+  GREEN_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  GREEN_HARNESS:
+    buy: 20
+    sell: 5
+  GREEN_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  GREEN_TERRACOTTA:
+    buy: 20
+    sell: 5
+  GREEN_WOOL:
+    buy: 20
+    sell: 5
+  GUNPOWDER:
+    buy: 20
+    sell: 5
+  HANGING_ROOTS:
+    buy: 20
+    sell: 5
+  HAY_BLOCK:
+    buy: 20
+    sell: 5
+  HEART_OF_THE_SEA:
+    buy: 20
+    sell: 5
+  HONEY_BOTTLE:
+    buy: 20
+    sell: 5
+  HONEYCOMB:
+    buy: 20
+    sell: 5
+  HOPPER:
+    buy: 20
+    sell: 5
+  HOPPER_MINECART:
+    buy: 20
+    sell: 5
+  HORN_CORAL:
+    buy: 20
+    sell: 5
+  HORN_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  HOST_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  ICE:
+    buy: 20
+    sell: 5
+  INK_SAC:
+    buy: 20
+    sell: 5
+  IRON_AXE:
+    buy: 120
+    sell: 30
+  IRON_BARS:
+    buy: 20
+    sell: 5
+  IRON_BLOCK:
+    buy: 360
+    sell: 90
+  IRON_BOOTS:
+    buy: 160
+    sell: 40
+  IRON_CHAIN:
+    buy: 20
+    sell: 5
+  IRON_CHESTPLATE:
+    buy: 320
+    sell: 80
+  IRON_DOOR:
+    buy: 20
+    sell: 5
+  IRON_HELMET:
+    buy: 200
+    sell: 50
+  IRON_HOE:
+    buy: 20
+    sell: 5
+  IRON_HORSE_ARMOR:
+    buy: 20
+    sell: 5
+  IRON_INGOT:
+    buy: 40
+    sell: 10
+  IRON_LEGGINGS:
+    buy: 280
+    sell: 70
+  IRON_NAUTILUS_ARMOR:
+    buy: 20
+    sell: 5
+  IRON_NUGGET:
+    buy: 20
+    sell: 5
+  IRON_ORE:
+    buy: 20
+    sell: 5
+  IRON_PICKAXE:
+    buy: 120
+    sell: 30
+  IRON_SHOVEL:
+    buy: 20
+    sell: 5
+  IRON_SPEAR:
+    buy: 20
+    sell: 5
+  IRON_SWORD:
+    buy: 120
+    sell: 30
+  IRON_TRAPDOOR:
+    buy: 20
+    sell: 5
+  ITEM_FRAME:
+    buy: 20
+    sell: 5
+  JACK_O_LANTERN:
+    buy: 20
+    sell: 5
+  JUKEBOX:
+    buy: 20
+    sell: 5
+  JUNGLE_BOAT:
+    buy: 20
+    sell: 5
+  JUNGLE_BUTTON:
+    buy: 20
+    sell: 5
+  JUNGLE_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  JUNGLE_DOOR:
+    buy: 20
+    sell: 5
+  JUNGLE_FENCE:
+    buy: 20
+    sell: 5
+  JUNGLE_FENCE_GATE:
+    buy: 20
+    sell: 5
+  JUNGLE_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  JUNGLE_LEAVES:
+    buy: 20
+    sell: 5
+  JUNGLE_LOG:
+    buy: 25
+    sell: 6.25
+  JUNGLE_PLANKS:
+    buy: 8
+    sell: 2
+  JUNGLE_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  JUNGLE_SAPLING:
+    buy: 20
+    sell: 5
+  JUNGLE_SHELF:
+    buy: 20
+    sell: 5
+  JUNGLE_SIGN:
+    buy: 20
+    sell: 5
+  JUNGLE_TRAPDOOR:
+    buy: 20
+    sell: 5
+  JUNGLE_WOOD:
+    buy: 25
+    sell: 6.25
+  KELP:
+    buy: 20
+    sell: 5
+  KELP_PLANT:
+    buy: 20
+    sell: 5
+  LADDER:
+    buy: 20
+    sell: 5
+  LANTERN:
+    buy: 20
+    sell: 5
+  LAPIS_BLOCK:
+    buy: 20
+    sell: 5
+  LAPIS_LAZULI:
+    buy: 20
+    sell: 5
+  LAPIS_ORE:
+    buy: 20
+    sell: 5
+  LARGE_AMETHYST_BUD:
+    buy: 20
+    sell: 5
+  LAVA_BUCKET:
+    buy: 20
+    sell: 5
+  LAVA_CAULDRON:
+    buy: 20
+    sell: 5
+  LEAD:
+    buy: 20
+    sell: 5
+  LEAF_LITTER:
+    buy: 20
+    sell: 5
+  LEATHER:
+    buy: 20
+    sell: 5
+  LEATHER_BOOTS:
+    buy: 40
+    sell: 10
+  LEATHER_CHESTPLATE:
+    buy: 80
+    sell: 20
+  LEATHER_HELMET:
+    buy: 50
+    sell: 12.5
+  LEATHER_HORSE_ARMOR:
+    buy: 20
+    sell: 5
+  LEATHER_LEGGINGS:
+    buy: 70
+    sell: 17.5
+  LECTERN:
+    buy: 20
+    sell: 5
+  LEVER:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_BUNDLE:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_CANDLE:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_CONCRETE:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_DYE:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_HARNESS:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIGHT_BLUE_WOOL:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_BUNDLE:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_CANDLE:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_CONCRETE:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_DYE:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_HARNESS:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIGHT_GRAY_WOOL:
+    buy: 20
+    sell: 5
+  LILY_OF_THE_VALLEY:
+    buy: 20
+    sell: 5
+  LILY_PAD:
+    buy: 20
+    sell: 5
+  LIME_BUNDLE:
+    buy: 20
+    sell: 5
+  LIME_CANDLE:
+    buy: 20
+    sell: 5
+  LIME_CONCRETE:
+    buy: 20
+    sell: 5
+  LIME_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  LIME_DYE:
+    buy: 20
+    sell: 5
+  LIME_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIME_HARNESS:
+    buy: 20
+    sell: 5
+  LIME_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  LIME_TERRACOTTA:
+    buy: 20
+    sell: 5
+  LIME_WOOL:
+    buy: 20
+    sell: 5
+  LODESTONE:
+    buy: 20
+    sell: 5
+  MACE:
+    buy: 6000
+    sell: 1500
+  MAGENTA_BUNDLE:
+    buy: 20
+    sell: 5
+  MAGENTA_CANDLE:
+    buy: 20
+    sell: 5
+  MAGENTA_CONCRETE:
+    buy: 20
+    sell: 5
+  MAGENTA_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  MAGENTA_DYE:
+    buy: 20
+    sell: 5
+  MAGENTA_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  MAGENTA_HARNESS:
+    buy: 20
+    sell: 5
+  MAGENTA_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  MAGENTA_TERRACOTTA:
+    buy: 20
+    sell: 5
+  MAGENTA_WOOL:
+    buy: 20
+    sell: 5
+  MAGMA_CREAM:
+    buy: 20
+    sell: 5
+  MANGROVE_BOAT:
+    buy: 20
+    sell: 5
+  MANGROVE_BUTTON:
+    buy: 20
+    sell: 5
+  MANGROVE_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  MANGROVE_DOOR:
+    buy: 20
+    sell: 5
+  MANGROVE_FENCE:
+    buy: 20
+    sell: 5
+  MANGROVE_FENCE_GATE:
+    buy: 20
+    sell: 5
+  MANGROVE_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  MANGROVE_LEAVES:
+    buy: 20
+    sell: 5
+  MANGROVE_LOG:
+    buy: 25
+    sell: 6.25
+  MANGROVE_PLANKS:
+    buy: 8
+    sell: 2
+  MANGROVE_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  MANGROVE_PROPAGULE:
+    buy: 20
+    sell: 5
+  MANGROVE_SHELF:
+    buy: 20
+    sell: 5
+  MANGROVE_SIGN:
+    buy: 20
+    sell: 5
+  MANGROVE_TRAPDOOR:
+    buy: 20
+    sell: 5
+  MANGROVE_WOOD:
+    buy: 25
+    sell: 6.25
+  MAP:
+    buy: 20
+    sell: 5
+  MEDIUM_AMETHYST_BUD:
+    buy: 20
+    sell: 5
+  MILK_BUCKET:
+    buy: 20
+    sell: 5
+  MINECART:
+    buy: 20
+    sell: 5
+  MOSS_BLOCK:
+    buy: 20
+    sell: 5
+  MOSSY_COBBLESTONE:
+    buy: 20
+    sell: 5
+  MOSSY_COBBLESTONE_WALL:
+    buy: 20
+    sell: 5
+  MOSSY_STONE_BRICK_WALL:
+    buy: 20
+    sell: 5
+  MOSSY_STONE_BRICKS:
+    buy: 20
+    sell: 5
+  MUD:
+    buy: 20
+    sell: 5
+  MUD_BRICK_WALL:
+    buy: 20
+    sell: 5
+  MUD_BRICKS:
+    buy: 20
+    sell: 5
+  MUSHROOM_STEM:
+    buy: 20
+    sell: 5
+  MUSHROOM_STEW:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_11:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_13:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_5:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_BLOCKS:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_CAT:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_CHIRP:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_CREATOR:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_CREATOR_MUSIC_BOX:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_FAR:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_LAVA_CHICKEN:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_MALL:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_MELLOHI:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_OTHERSIDE:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_PIGSTEP:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_PRECIPICE:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_RELIC:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_STAL:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_STRAD:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_TEARS:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_WAIT:
+    buy: 20
+    sell: 5
+  MUSIC_DISC_WARD:
+    buy: 20
+    sell: 5
+  MUTTON:
+    buy: 20
+    sell: 5
+  MYCELIUM:
+    buy: 20
+    sell: 5
+  NAME_TAG:
+    buy: 20
+    sell: 5
+  NAUTILUS_SHELL:
+    buy: 20
+    sell: 5
+  NETHER_BRICK:
+    buy: 20
+    sell: 5
+  NETHER_BRICK_FENCE:
+    buy: 20
+    sell: 5
+  NETHER_BRICK_WALL:
+    buy: 20
+    sell: 5
+  NETHER_BRICKS:
+    buy: 20
+    sell: 5
+  NETHER_GOLD_ORE:
+    buy: 20
+    sell: 5
+  NETHER_QUARTZ_ORE:
+    buy: 20
+    sell: 5
+  NETHER_SPROUTS:
+    buy: 20
+    sell: 5
+  NETHER_STAR:
+    buy: 20
+    sell: 5
+  NETHER_WART:
+    buy: 20
+    sell: 5
+  NETHER_WART_BLOCK:
+    buy: 20
+    sell: 5
+  NETHERITE_AXE:
+    buy: 2200
+    sell: 550
+  NETHERITE_BLOCK:
+    buy: 13500
+    sell: 3375
+  NETHERITE_BOOTS:
+    buy: 2000
+    sell: 500
+  NETHERITE_CHESTPLATE:
+    buy: 3500
+    sell: 875
+  NETHERITE_HELMET:
+    buy: 2500
+    sell: 625
+  NETHERITE_HOE:
+    buy: 1500
+    sell: 375
+  NETHERITE_HORSE_ARMOR:
+    buy: 1500
+    sell: 375
+  NETHERITE_INGOT:
+    buy: 1500
+    sell: 375
+  NETHERITE_LEGGINGS:
+    buy: 3000
+    sell: 750
+  NETHERITE_NAUTILUS_ARMOR:
+    buy: 1500
+    sell: 375
+  NETHERITE_PICKAXE:
+    buy: 2200
+    sell: 550
+  NETHERITE_SCRAP:
+    buy: 1500
+    sell: 375
+  NETHERITE_SHOVEL:
+    buy: 1500
+    sell: 375
+  NETHERITE_SPEAR:
+    buy: 1500
+    sell: 375
+  NETHERITE_SWORD:
+    buy: 2200
+    sell: 550
+  NETHERITE_UPGRADE_SMITHING_TEMPLATE:
+    buy: 1500
+    sell: 375
+  NETHERRACK:
+    buy: 20
+    sell: 5
+  NOTE_BLOCK:
+    buy: 20
+    sell: 5
+  OAK_BOAT:
+    buy: 20
+    sell: 5
+  OAK_BUTTON:
+    buy: 20
+    sell: 5
+  OAK_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  OAK_DOOR:
+    buy: 20
+    sell: 5
+  OAK_FENCE:
+    buy: 20
+    sell: 5
+  OAK_FENCE_GATE:
+    buy: 20
+    sell: 5
+  OAK_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  OAK_LEAVES:
+    buy: 20
+    sell: 5
+  OAK_LOG:
+    buy: 25
+    sell: 6.25
+  OAK_PLANKS:
+    buy: 8
+    sell: 2
+  OAK_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  OAK_SAPLING:
+    buy: 20
+    sell: 5
+  OAK_SHELF:
+    buy: 20
+    sell: 5
+  OAK_SIGN:
+    buy: 20
+    sell: 5
+  OAK_TRAPDOOR:
+    buy: 20
+    sell: 5
+  OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  OBSERVER:
+    buy: 20
+    sell: 5
+  OBSIDIAN:
+    buy: 20
+    sell: 5
+  OMINOUS_BOTTLE:
+    buy: 20
+    sell: 5
+  OMINOUS_TRIAL_KEY:
+    buy: 20
+    sell: 5
+  OPEN_EYEBLOSSOM:
+    buy: 20
+    sell: 5
+  ORANGE_BUNDLE:
+    buy: 20
+    sell: 5
+  ORANGE_CANDLE:
+    buy: 20
+    sell: 5
+  ORANGE_CONCRETE:
+    buy: 20
+    sell: 5
+  ORANGE_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  ORANGE_DYE:
+    buy: 20
+    sell: 5
+  ORANGE_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  ORANGE_HARNESS:
+    buy: 20
+    sell: 5
+  ORANGE_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  ORANGE_TERRACOTTA:
+    buy: 20
+    sell: 5
+  ORANGE_TULIP:
+    buy: 20
+    sell: 5
+  ORANGE_WOOL:
+    buy: 20
+    sell: 5
+  OXEYE_DAISY:
+    buy: 20
+    sell: 5
+  OXIDIZED_LIGHTNING_ROD:
+    buy: 100
+    sell: 25
+  PACKED_ICE:
+    buy: 20
+    sell: 5
+  PACKED_MUD:
+    buy: 20
+    sell: 5
+  PAINTING:
+    buy: 20
+    sell: 5
+  PALE_HANGING_MOSS:
+    buy: 20
+    sell: 5
+  PALE_MOSS_BLOCK:
+    buy: 20
+    sell: 5
+  PALE_OAK_BOAT:
+    buy: 20
+    sell: 5
+  PALE_OAK_BUTTON:
+    buy: 20
+    sell: 5
+  PALE_OAK_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  PALE_OAK_DOOR:
+    buy: 20
+    sell: 5
+  PALE_OAK_FENCE:
+    buy: 20
+    sell: 5
+  PALE_OAK_FENCE_GATE:
+    buy: 20
+    sell: 5
+  PALE_OAK_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  PALE_OAK_LEAVES:
+    buy: 20
+    sell: 5
+  PALE_OAK_LOG:
+    buy: 25
+    sell: 6.25
+  PALE_OAK_PLANKS:
+    buy: 8
+    sell: 2
+  PALE_OAK_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  PALE_OAK_SAPLING:
+    buy: 20
+    sell: 5
+  PALE_OAK_SHELF:
+    buy: 20
+    sell: 5
+  PALE_OAK_SIGN:
+    buy: 20
+    sell: 5
+  PALE_OAK_TRAPDOOR:
+    buy: 20
+    sell: 5
+  PALE_OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  PAPER:
+    buy: 20
+    sell: 5
+  PHANTOM_MEMBRANE:
+    buy: 20
+    sell: 5
+  PINK_BUNDLE:
+    buy: 20
+    sell: 5
+  PINK_CANDLE:
+    buy: 20
+    sell: 5
+  PINK_CONCRETE:
+    buy: 20
+    sell: 5
+  PINK_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  PINK_DYE:
+    buy: 20
+    sell: 5
+  PINK_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  PINK_HARNESS:
+    buy: 20
+    sell: 5
+  PINK_PETALS:
+    buy: 20
+    sell: 5
+  PINK_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  PINK_TERRACOTTA:
+    buy: 20
+    sell: 5
+  PINK_TULIP:
+    buy: 20
+    sell: 5
+  PINK_WOOL:
+    buy: 20
+    sell: 5
+  PISTON:
+    buy: 20
+    sell: 5
+  PITCHER_CROP:
+    buy: 20
+    sell: 5
+  PITCHER_PLANT:
+    buy: 20
+    sell: 5
+  PITCHER_POD:
+    buy: 20
+    sell: 5
+  PODZOL:
+    buy: 20
+    sell: 5
+  POINTED_DRIPSTONE:
+    buy: 20
+    sell: 5
+  POISONOUS_POTATO:
+    buy: 20
+    sell: 5
+  POLISHED_ANDESITE:
+    buy: 20
+    sell: 5
+  POLISHED_BASALT:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE_BRICK_WALL:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE_BRICKS:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE_BUTTON:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  POLISHED_BLACKSTONE_WALL:
+    buy: 20
+    sell: 5
+  POLISHED_DEEPSLATE:
+    buy: 20
+    sell: 5
+  POLISHED_DEEPSLATE_WALL:
+    buy: 20
+    sell: 5
+  POLISHED_DIORITE:
+    buy: 20
+    sell: 5
+  POLISHED_GRANITE:
+    buy: 20
+    sell: 5
+  POLISHED_TUFF:
+    buy: 20
+    sell: 5
+  POLISHED_TUFF_WALL:
+    buy: 20
+    sell: 5
+  POPPED_CHORUS_FRUIT:
+    buy: 20
+    sell: 5
+  POPPY:
+    buy: 20
+    sell: 5
+  PORKCHOP:
+    buy: 20
+    sell: 5
+  POTATO:
+    buy: 20
+    sell: 5
+  POTATOES:
+    buy: 20
+    sell: 5
+  POWDER_SNOW_BUCKET:
+    buy: 20
+    sell: 5
+  POWDER_SNOW_CAULDRON:
+    buy: 20
+    sell: 5
+  POWERED_RAIL:
+    buy: 20
+    sell: 5
+  PRISMARINE:
+    buy: 20
+    sell: 5
+  PRISMARINE_BRICKS:
+    buy: 20
+    sell: 5
+  PRISMARINE_CRYSTALS:
+    buy: 20
+    sell: 5
+  PRISMARINE_SHARD:
+    buy: 20
+    sell: 5
+  PRISMARINE_WALL:
+    buy: 20
+    sell: 5
+  PUFFERFISH:
+    buy: 20
+    sell: 5
+  PUFFERFISH_BUCKET:
+    buy: 20
+    sell: 5
+  PUMPKIN:
+    buy: 20
+    sell: 5
+  PUMPKIN_PIE:
+    buy: 20
+    sell: 5
+  PUMPKIN_SEEDS:
+    buy: 20
+    sell: 5
+  PUMPKIN_STEM:
+    buy: 20
+    sell: 5
+  PURPLE_BUNDLE:
+    buy: 20
+    sell: 5
+  PURPLE_CANDLE:
+    buy: 20
+    sell: 5
+  PURPLE_CONCRETE:
+    buy: 20
+    sell: 5
+  PURPLE_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  PURPLE_DYE:
+    buy: 20
+    sell: 5
+  PURPLE_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  PURPLE_HARNESS:
+    buy: 20
+    sell: 5
+  PURPLE_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  PURPLE_TERRACOTTA:
+    buy: 20
+    sell: 5
+  PURPLE_WOOL:
+    buy: 20
+    sell: 5
+  PURPUR_BLOCK:
+    buy: 20
+    sell: 5
+  PURPUR_PILLAR:
+    buy: 20
+    sell: 5
+  QUARTZ:
+    buy: 20
+    sell: 5
+  QUARTZ_BLOCK:
+    buy: 20
+    sell: 5
+  QUARTZ_BRICKS:
+    buy: 20
+    sell: 5
+  QUARTZ_PILLAR:
+    buy: 20
+    sell: 5
+  RABBIT:
+    buy: 20
+    sell: 5
+  RABBIT_FOOT:
+    buy: 20
+    sell: 5
+  RABBIT_HIDE:
+    buy: 20
+    sell: 5
+  RABBIT_STEW:
+    buy: 20
+    sell: 5
+  RAIL:
+    buy: 20
+    sell: 5
+  RAISER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  RAW_COPPER:
+    buy: 10
+    sell: 2.5
+  RAW_COPPER_BLOCK:
+    buy: 10
+    sell: 2.5
+  RAW_GOLD:
+    buy: 20
+    sell: 5
+  RAW_GOLD_BLOCK:
+    buy: 720
+    sell: 180
+  RAW_IRON:
+    buy: 20
+    sell: 5
+  RAW_IRON_BLOCK:
+    buy: 360
+    sell: 90
+  RECOVERY_COMPASS:
+    buy: 20
+    sell: 5
+  RED_BUNDLE:
+    buy: 20
+    sell: 5
+  RED_CANDLE:
+    buy: 20
+    sell: 5
+  RED_CONCRETE:
+    buy: 20
+    sell: 5
+  RED_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  RED_DYE:
+    buy: 20
+    sell: 5
+  RED_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  RED_HARNESS:
+    buy: 20
+    sell: 5
+  RED_MUSHROOM:
+    buy: 20
+    sell: 5
+  RED_MUSHROOM_BLOCK:
+    buy: 20
+    sell: 5
+  RED_NETHER_BRICK_WALL:
+    buy: 20
+    sell: 5
+  RED_NETHER_BRICKS:
+    buy: 20
+    sell: 5
+  RED_SAND:
+    buy: 20
+    sell: 5
+  RED_SANDSTONE:
+    buy: 20
+    sell: 5
+  RED_SANDSTONE_WALL:
+    buy: 20
+    sell: 5
+  RED_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  RED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  RED_TULIP:
+    buy: 20
+    sell: 5
+  RED_WOOL:
+    buy: 20
+    sell: 5
+  REDSTONE:
+    buy: 20
+    sell: 5
+  REDSTONE_BLOCK:
+    buy: 20
+    sell: 5
+  REDSTONE_LAMP:
+    buy: 20
+    sell: 5
+  REDSTONE_ORE:
+    buy: 20
+    sell: 5
+  REDSTONE_TORCH:
+    buy: 20
+    sell: 5
+  REDSTONE_WIRE:
+    buy: 20
+    sell: 5
+  REPEATER:
+    buy: 20
+    sell: 5
+  RESIN_BLOCK:
+    buy: 20
+    sell: 5
+  RESIN_BRICK:
+    buy: 20
+    sell: 5
+  RESIN_BRICK_WALL:
+    buy: 20
+    sell: 5
+  RESIN_BRICKS:
+    buy: 20
+    sell: 5
+  RESIN_CLUMP:
+    buy: 20
+    sell: 5
+  RESPAWN_ANCHOR:
+    buy: 20
+    sell: 5
+  RIB_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  ROOTED_DIRT:
+    buy: 20
+    sell: 5
+  ROTTEN_FLESH:
+    buy: 20
+    sell: 5
+  SADDLE:
+    buy: 20
+    sell: 5
+  SALMON:
+    buy: 20
+    sell: 5
+  SALMON_BUCKET:
+    buy: 20
+    sell: 5
+  SAND:
+    buy: 20
+    sell: 5
+  SANDSTONE:
+    buy: 20
+    sell: 5
+  SANDSTONE_WALL:
+    buy: 20
+    sell: 5
+  SEA_LANTERN:
+    buy: 20
+    sell: 5
+  SEA_PICKLE:
+    buy: 20
+    sell: 5
+  SEAGRASS:
+    buy: 20
+    sell: 5
+  SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  SHEARS:
+    buy: 20
+    sell: 5
+  SHORT_DRY_GRASS:
+    buy: 20
+    sell: 5
+  SHORT_GRASS:
+    buy: 20
+    sell: 5
+  SHROOMLIGHT:
+    buy: 20
+    sell: 5
+  SHULKER_BOX:
+    buy: 20
+    sell: 5
+  SHULKER_SHELL:
+    buy: 20
+    sell: 5
+  SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  SLIME_BALL:
+    buy: 20
+    sell: 5
+  SLIME_BLOCK:
+    buy: 20
+    sell: 5
+  SMALL_AMETHYST_BUD:
+    buy: 20
+    sell: 5
+  SMITHING_TABLE:
+    buy: 20
+    sell: 5
+  SMOKER:
+    buy: 20
+    sell: 5
+  SMOOTH_RED_SANDSTONE:
+    buy: 20
+    sell: 5
+  SMOOTH_SANDSTONE:
+    buy: 20
+    sell: 5
+  SMOOTH_STONE:
+    buy: 20
+    sell: 5
+  SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  SNOW:
+    buy: 20
+    sell: 5
+  SNOW_BLOCK:
+    buy: 20
+    sell: 5
+  SNOWBALL:
+    buy: 20
+    sell: 5
+  SOUL_CAMPFIRE:
+    buy: 20
+    sell: 5
+  SOUL_LANTERN:
+    buy: 20
+    sell: 5
+  SOUL_SAND:
+    buy: 20
+    sell: 5
+  SOUL_SOIL:
+    buy: 20
+    sell: 5
+  SOUL_TORCH:
+    buy: 20
+    sell: 5
+  SPECTRAL_ARROW:
+    buy: 20
+    sell: 5
+  SPIDER_EYE:
+    buy: 20
+    sell: 5
+  SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  SPONGE:
+    buy: 20
+    sell: 5
+  SPORE_BLOSSOM:
+    buy: 20
+    sell: 5
+  SPRUCE_BOAT:
+    buy: 20
+    sell: 5
+  SPRUCE_BUTTON:
+    buy: 20
+    sell: 5
+  SPRUCE_CHEST_BOAT:
+    buy: 20
+    sell: 5
+  SPRUCE_DOOR:
+    buy: 20
+    sell: 5
+  SPRUCE_FENCE:
+    buy: 20
+    sell: 5
+  SPRUCE_FENCE_GATE:
+    buy: 20
+    sell: 5
+  SPRUCE_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  SPRUCE_LEAVES:
+    buy: 20
+    sell: 5
+  SPRUCE_LOG:
+    buy: 25
+    sell: 6.25
+  SPRUCE_PLANKS:
+    buy: 8
+    sell: 2
+  SPRUCE_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  SPRUCE_SAPLING:
+    buy: 20
+    sell: 5
+  SPRUCE_SHELF:
+    buy: 20
+    sell: 5
+  SPRUCE_SIGN:
+    buy: 20
+    sell: 5
+  SPRUCE_TRAPDOOR:
+    buy: 20
+    sell: 5
+  SPRUCE_WOOD:
+    buy: 25
+    sell: 6.25
+  SPYGLASS:
+    buy: 20
+    sell: 5
+  STICK:
+    buy: 20
+    sell: 5
+  STICKY_PISTON:
+    buy: 20
+    sell: 5
+  STONE:
+    buy: 20
+    sell: 5
+  STONE_AXE:
+    buy: 20
+    sell: 5
+  STONE_BRICK_WALL:
+    buy: 20
+    sell: 5
+  STONE_BRICKS:
+    buy: 20
+    sell: 5
+  STONE_BUTTON:
+    buy: 20
+    sell: 5
+  STONE_HOE:
+    buy: 20
+    sell: 5
+  STONE_PICKAXE:
+    buy: 20
+    sell: 5
+  STONE_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  STONE_SHOVEL:
+    buy: 20
+    sell: 5
+  STONE_SPEAR:
+    buy: 20
+    sell: 5
+  STONE_SWORD:
+    buy: 20
+    sell: 5
+  STONECUTTER:
+    buy: 20
+    sell: 5
+  STRING:
+    buy: 20
+    sell: 5
+  STRIPPED_ACACIA_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_ACACIA_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_BAMBOO_BLOCK:
+    buy: 20
+    sell: 5
+  STRIPPED_BIRCH_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_BIRCH_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_CHERRY_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_CHERRY_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_CRIMSON_HYPHAE:
+    buy: 20
+    sell: 5
+  STRIPPED_CRIMSON_STEM:
+    buy: 20
+    sell: 5
+  STRIPPED_DARK_OAK_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_DARK_OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_JUNGLE_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_JUNGLE_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_MANGROVE_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_MANGROVE_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_OAK_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_PALE_OAK_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_PALE_OAK_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_SPRUCE_LOG:
+    buy: 25
+    sell: 6.25
+  STRIPPED_SPRUCE_WOOD:
+    buy: 25
+    sell: 6.25
+  STRIPPED_WARPED_HYPHAE:
+    buy: 20
+    sell: 5
+  STRIPPED_WARPED_STEM:
+    buy: 20
+    sell: 5
+  SUGAR:
+    buy: 20
+    sell: 5
+  SUGAR_CANE:
+    buy: 20
+    sell: 5
+  SUSPICIOUS_STEW:
+    buy: 20
+    sell: 5
+  SWEET_BERRIES:
+    buy: 20
+    sell: 5
+  TADPOLE_BUCKET:
+    buy: 20
+    sell: 5
+  TALL_DRY_GRASS:
+    buy: 20
+    sell: 5
+  TALL_SEAGRASS:
+    buy: 20
+    sell: 5
+  TARGET:
+    buy: 20
+    sell: 5
+  TERRACOTTA:
+    buy: 20
+    sell: 5
+  TIDE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  TINTED_GLASS:
+    buy: 20
+    sell: 5
+  TNT:
+    buy: 20
+    sell: 5
+  TNT_MINECART:
+    buy: 20
+    sell: 5
+  TORCH:
+    buy: 20
+    sell: 5
+  TORCHFLOWER:
+    buy: 20
+    sell: 5
+  TORCHFLOWER_CROP:
+    buy: 20
+    sell: 5
+  TORCHFLOWER_SEEDS:
+    buy: 20
+    sell: 5
+  TOTEM_OF_UNDYING:
+    buy: 2500
+    sell: 625
+  TRAPPED_CHEST:
+    buy: 20
+    sell: 5
+  TRIAL_KEY:
+    buy: 20
+    sell: 5
+  TRIDENT:
+    buy: 3000
+    sell: 750
+  TRIPWIRE:
+    buy: 20
+    sell: 5
+  TRIPWIRE_HOOK:
+    buy: 20
+    sell: 5
+  TROPICAL_FISH:
+    buy: 20
+    sell: 5
+  TROPICAL_FISH_BUCKET:
+    buy: 20
+    sell: 5
+  TUBE_CORAL:
+    buy: 20
+    sell: 5
+  TUBE_CORAL_BLOCK:
+    buy: 20
+    sell: 5
+  TUFF:
+    buy: 20
+    sell: 5
+  TUFF_BRICK_WALL:
+    buy: 20
+    sell: 5
+  TUFF_BRICKS:
+    buy: 20
+    sell: 5
+  TUFF_WALL:
+    buy: 20
+    sell: 5
+  TURTLE_EGG:
+    buy: 20
+    sell: 5
+  TURTLE_HELMET:
+    buy: 20
+    sell: 5
+  TURTLE_SCUTE:
+    buy: 20
+    sell: 5
+  TWISTING_VINES:
+    buy: 20
+    sell: 5
+  TWISTING_VINES_PLANT:
+    buy: 20
+    sell: 5
+  VEX_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  VINE:
+    buy: 20
+    sell: 5
+  WARD_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  WARPED_BUTTON:
+    buy: 20
+    sell: 5
+  WARPED_DOOR:
+    buy: 20
+    sell: 5
+  WARPED_FENCE:
+    buy: 20
+    sell: 5
+  WARPED_FENCE_GATE:
+    buy: 20
+    sell: 5
+  WARPED_FUNGUS:
+    buy: 20
+    sell: 5
+  WARPED_FUNGUS_ON_A_STICK:
+    buy: 20
+    sell: 5
+  WARPED_HANGING_SIGN:
+    buy: 20
+    sell: 5
+  WARPED_HYPHAE:
+    buy: 20
+    sell: 5
+  WARPED_NYLIUM:
+    buy: 20
+    sell: 5
+  WARPED_PLANKS:
+    buy: 8
+    sell: 2
+  WARPED_PRESSURE_PLATE:
+    buy: 20
+    sell: 5
+  WARPED_ROOTS:
+    buy: 20
+    sell: 5
+  WARPED_SHELF:
+    buy: 20
+    sell: 5
+  WARPED_SIGN:
+    buy: 20
+    sell: 5
+  WARPED_STEM:
+    buy: 20
+    sell: 5
+  WARPED_TRAPDOOR:
+    buy: 20
+    sell: 5
+  WARPED_WART_BLOCK:
+    buy: 20
+    sell: 5
+  WATER_BUCKET:
+    buy: 20
+    sell: 5
+  WATER_CAULDRON:
+    buy: 20
+    sell: 5
+  WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  WEATHERED_LIGHTNING_ROD:
+    buy: 100
+    sell: 25
+  WEEPING_VINES:
+    buy: 20
+    sell: 5
+  WEEPING_VINES_PLANT:
+    buy: 20
+    sell: 5
+  WET_SPONGE:
+    buy: 20
+    sell: 5
+  WHEAT:
+    buy: 20
+    sell: 5
+  WHEAT_SEEDS:
+    buy: 20
+    sell: 5
+  WHITE_BUNDLE:
+    buy: 20
+    sell: 5
+  WHITE_CANDLE:
+    buy: 20
+    sell: 5
+  WHITE_CONCRETE:
+    buy: 20
+    sell: 5
+  WHITE_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  WHITE_DYE:
+    buy: 20
+    sell: 5
+  WHITE_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  WHITE_HARNESS:
+    buy: 20
+    sell: 5
+  WHITE_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  WHITE_TERRACOTTA:
+    buy: 20
+    sell: 5
+  WHITE_TULIP:
+    buy: 20
+    sell: 5
+  WHITE_WOOL:
+    buy: 20
+    sell: 5
+  WILD_ARMOR_TRIM_SMITHING_TEMPLATE:
+    buy: 20
+    sell: 5
+  WILDFLOWERS:
+    buy: 20
+    sell: 5
+  WIND_CHARGE:
+    buy: 20
+    sell: 5
+  WITHER_ROSE:
+    buy: 20
+    sell: 5
+  WOLF_ARMOR:
+    buy: 20
+    sell: 5
+  WOODEN_AXE:
+    buy: 25
+    sell: 6.25
+  WOODEN_HOE:
+    buy: 25
+    sell: 6.25
+  WOODEN_PICKAXE:
+    buy: 25
+    sell: 6.25
+  WOODEN_SHOVEL:
+    buy: 25
+    sell: 6.25
+  WOODEN_SPEAR:
+    buy: 25
+    sell: 6.25
+  WOODEN_SWORD:
+    buy: 25
+    sell: 6.25
+  WRITABLE_BOOK:
+    buy: 20
+    sell: 5
+  WRITTEN_BOOK:
+    buy: 20
+    sell: 5
+  YELLOW_BUNDLE:
+    buy: 20
+    sell: 5
+  YELLOW_CANDLE:
+    buy: 20
+    sell: 5
+  YELLOW_CONCRETE:
+    buy: 20
+    sell: 5
+  YELLOW_CONCRETE_POWDER:
+    buy: 20
+    sell: 5
+  YELLOW_DYE:
+    buy: 20
+    sell: 5
+  YELLOW_GLAZED_TERRACOTTA:
+    buy: 20
+    sell: 5
+  YELLOW_HARNESS:
+    buy: 20
+    sell: 5
+  YELLOW_SHULKER_BOX:
+    buy: 20
+    sell: 5
+  YELLOW_TERRACOTTA:
+    buy: 20
+    sell: 5
+  YELLOW_WOOL:
+    buy: 20
+    sell: 5
